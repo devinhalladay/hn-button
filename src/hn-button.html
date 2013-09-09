@@ -1,0 +1,25 @@
+<polymer-element name="hn-button" attributes="title href count height width encodedhref encodedtitle">
+
+	<template>
+		<iframe src="http://hn-button.herokuapp.com?title={{encodedtitle}}&amp;url={{href}}&amp;&amp;count={{count}}" class="hn-button" data-title="{{title}}" data-url="{{href}}" data-count="{{count}}" title="Hacker News Button" height="{{height}}px" width="{{width}}px" frameborder="0"></iframe>
+
+    <style>
+      iframe {
+        height: {{height}}px;
+        width: {{width}}px;
+      }
+    </style>
+	</template>
+
+	<script>
+		Polymer('hn-button', {
+      title       : 'Show HN: The Hacker News Button',
+      href        : 'http://www.hn-button.com/',
+      count       : 'horizontal',
+			height      : '20',
+			width       : 'auto',
+      encodedtitle: encodeURIComponent('{{title}}')
+		});
+	</script>
+
+</polymer-element>
