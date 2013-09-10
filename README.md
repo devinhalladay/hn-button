@@ -54,6 +54,8 @@ Attribute | Options       | Default                             | Description
 
 ## History
 
+* v0.0.2 September 10, 2013
+  * Formatted source to fit customelement.io standards.
 * v0.0.1 September 9, 2013
   * Started project. Inital release.
 
