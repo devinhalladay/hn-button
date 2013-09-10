@@ -32,13 +32,13 @@ Web Component wrapper for [Segment.io's Hacker News Button](http://www.hn-button
 
 ## Options
 
-Attribute | Options       | Default                    | Description
----       | ---           | ---                        | ---
+Attribute | Options       | Default                             | Description
+---       | ---           | ---                                 | ---
 `title`   | *string*      | `Show HN: The Hacker News Button`   | The title of the Hacker News post
-`count`   | `horizontal`, `vertical`                   | The direcition of the button count
-`href`    | *string*      | `http://www.hn-button.com/` | The URL on the Hacker News post
-`height`  | *int*         | `20`                       | The height of the button
-`width`   | *int*, `auto` | `auto`                     | The width of the button
+`count`   | `horizontal`, `vertical` | `horizontal`             | The direcition of the button count
+`href`    | *string*      | `http://www.hn-button.com/`         | The URL on the Hacker News post
+`height`  | *int*         | `20`                                | The height of the button
+`width`   | *int*, `auto` | `auto`                              | The width of the button
 
 ## Contributing
 
